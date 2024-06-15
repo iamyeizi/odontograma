@@ -63,11 +63,10 @@ CARAS PERPENDICULARES:
 
 ## 3 - Tratamientos/Extracciones
 
-Los tratamientos existentes se registran en color Rojo sobre la cara indicada
-Las extracciones o ausencias existentes se indican con una cruz roja sobre toda la pieza
-
-Los tratamientos a realizar se registran en color Azul sobre la cara indicada
-Las extracciones a realizar se indican con una cruz Azul sobre toda la pieza
+- Los tratamientos existentes se registran en color Rojo sobre la cara indicada  
+- Las extracciones o ausencias existentes se indican con una cruz roja sobre toda la pieza  
+- Los tratamientos a realizar se registran en color Azul sobre la cara indicada  
+- Las extracciones a realizar se indican con una cruz Azul sobre toda la pieza  
 
 Ejemplos de los tratamientos que se pueden realizar sobre piezas dentarias o caras de las mismas
 
@@ -130,8 +129,7 @@ CARAS (1 a N caras, registrar en una tabla a parte relacionada con piezas dentar
         MESIAL
     CARAS AXIALES LIBRES
         VESTIBULAR
-        PALATINA
-        LINGUAL
+        LINGUAL/PALATINA
         LABIAL
     CARAS PERPENDICULARES
         INCISAL
