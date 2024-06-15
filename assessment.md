@@ -2,72 +2,64 @@
 
 El objetivo es la creación de una página que permita registrar el odontograma de un paciente.
 
-**1 - Odontograma:** es un esquema gráfico o mapa de la boca en el que el dentista puede localizar todas
+## 1 - Odontograma
+Es un esquema gráfico o mapa de la boca en el que el dentista puede localizar todas
 
 las piezas dentarias del paciente y realizar anotaciones, registrar tratamientos a realizar y tratamientos existentes previos a la consulta del paciente.
 
-## Como se compone un odontograma?
+### Como se compone un odontograma?
 
 El odontograma esta compuesto por las piezas dentarias que componen la dentadura de una persona Estas piezas pueden pertenecer a una dentición PRIMARIA (20 Piezas) o SECUNDARIA (32 piezas) y cada pieza se identifica con la siguiente numeración:
 
 ![](assets/imagen.png)
 
-Piezas de la dentición primaria (del 51 en adelante) -INCISIVO CENTRAL
+Piezas de la dentición primaria (del 51 en adelante)  
 
--INCISIVO LATERAL
+-INCISIVO CENTRAL  
+-INCISIVO LATERAL  
+-CANINO  
+-PRIMER MOLAR  
+-SEGUNDO MOLAR  
+  
+Piezas dentición secundaria (del 11 hasta el 48)  
 
--CANINO
-
--PRIMER MOLAR
-
--SEGUNDO MOLAR
-
-Piezas dentición secundaria (del 11 hasta el 48) -INCISIVO CENTRAL
-
--INCISIVO LATERAL
-
--CANINO
-
--PRIMER PREMOLAR
-
--SEGUNDO PREMOLAR
-
--PRIMER MOLAR
-
--SEGUNDO MOLAR
-
--TERCER MOLAR
+-INCISIVO CENTRAL  
+-INCISIVO LATERAL  
+-CANINO  
+-PRIMER PREMOLAR  
+-SEGUNDO PREMOLAR  
+-PRIMER MOLAR  
+-SEGUNDO MOLAR  
+-TERCER MOLAR  
 
 La dentadura esta formada por dos grupos de dientes ANTERIORES y POSTERIORES, dentro de la primer clasificación se encuentran los INCISIVOS y LOS CANINOS, y en la segunda los PREMOLARES y MOLARES y estos pueden pertenecer a la arcada SUPERIOR o INFERIOR de la cavidad bucal.
 
 Esta clasificación determina 4 cuadrantes que se representan en un odontograma
 
--ARCADA SUPERIOR DERECHA
-
--ARCADA SUPERIOR IZQUIERDA
-
--ARCADA INFERIOR DERECHA
-
--ARCADA INFERIOR IZQUIERDA
-
+-ARCADA SUPERIOR DERECHA  
+-ARCADA SUPERIOR IZQUIERDA  
+-ARCADA INFERIOR DERECHA  
+-ARCADA INFERIOR IZQUIERDA  
 
 Cada registro que se realiza en un odontograma se debe indicar sobre que pieza dentaria y cara se registra la anotación o tratamiento
 
-### 2 - Piezas Dentarias- Partes: CORONA, RAÍZ Y CUELLO Y CARAS
+## 2 - Piezas Dentarias  
 
-CARAS AXIALES PROXIMALES: -DISTAL
+Partes: CORONA, RAÍZ Y CUELLO Y CARAS  
+  
+CARAS AXIALES PROXIMALES:  
+-DISTAL  
+-MESIAL  
 
--MESIAL
+CARAS AXIALES LIBRES:  
+-VESTIBULAR  
+-PALATINA  
+-LINGUAL  
+-LABIAL  
 
-CARAS AXIALES LIBRES: -VESTIBULAR -PALATINA
-
--LINGUAL
-
--LABIAL
-
-CARAS PERPENDICULARES -INCISAL
-
--OCLUSAL
+CARAS PERPENDICULARES:  
+-INCISAL  
+-OCLUSAL  
 
 ## 3 - Tratamientos/Extracciones
 
