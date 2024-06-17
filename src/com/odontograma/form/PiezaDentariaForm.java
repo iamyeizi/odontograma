@@ -12,7 +12,8 @@ public class PiezaDentariaForm extends ActionForm {
     private String arcada;
     
     
-    // Getters y setters
+    // TODO: Refactor this, only the model needs to have access to the data
+	// Think better about what things should be here
     
 	public int getId() {
 		return id;

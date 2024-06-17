@@ -9,6 +9,7 @@ public class PiezaDentaria {
     private String subgrupo;
     private String arcada;
     
+	// TODO: Review if it need to have to a toString override
     
 	public int getId() {
 		return id;

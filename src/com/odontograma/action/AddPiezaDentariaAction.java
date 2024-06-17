@@ -19,6 +19,9 @@ public class AddPiezaDentariaAction extends Action {
         PreparedStatement preparedStatement = null;
 
         try {
+
+            // TODO: Assess constraints before saving
+
             connection = DBConnection.getConnection();     
             String sql = "INSERT INTO PIEZAS_DENTARIAS (NRO_PIEZA, DESCRIPCION, TIPO_DENTICION, GRUPO_DENTARIO, SUBGRUPO, ARCADA) VALUES (?, ?, ?, ?, ?, ?)";
             preparedStatement = connection.prepareStatement(sql);
