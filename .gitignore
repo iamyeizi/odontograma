@@ -4,6 +4,9 @@
 # Build
 build/
 
+# DB Credentials
+keys.properties
+
 # Compiled class file
 *.class
 
