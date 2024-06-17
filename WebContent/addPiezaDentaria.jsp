@@ -59,6 +59,15 @@
                 </td>
             </tr>
             <tr>
+                <td>Estado:</td>
+                <td>
+                    <html:select property="estado">
+                        <html:option value="true">Activa</html:option>
+                        <html:option value="false">Extraida</html:option>
+                    </html:select>
+                </td>
+            </tr>
+            <tr>
                 <td colspan="2"><html:submit value="Agregar"/></td>
             </tr>
         </table>

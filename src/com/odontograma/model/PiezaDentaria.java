@@ -8,6 +8,7 @@ public class PiezaDentaria {
     private String grupoDentario;
     private String subgrupo;
     private String arcada;
+    private Boolean estado;
     
 	// TODO: Review if it need to have to a toString override
     
@@ -53,26 +54,10 @@ public class PiezaDentaria {
 	public void setArcada(String arcada) {
 		this.arcada = arcada;
 	}
-	
-	public PiezaDentaria(int id, int nroPieza, String descripcion, String tipoDenticion, String grupoDentario,
-			String subgrupo, String arcada) {
-		super();
-		this.id = id;
-		this.nroPieza = nroPieza;
-		this.descripcion = descripcion;
-		this.tipoDenticion = tipoDenticion;
-		this.grupoDentario = grupoDentario;
-		this.subgrupo = subgrupo;
-		this.arcada = arcada;
+	public Boolean getEstado() {
+		return estado;
 	}
-	
-	@Override
-	public String toString() {
-		return "PiezaDentaria [id=" + id + ", nroPieza=" + nroPieza + ", descripcion=" + descripcion
-				+ ", tipoDenticion=" + tipoDenticion + ", grupoDentario=" + grupoDentario + ", subgrupo=" + subgrupo
-				+ ", arcada=" + arcada + "]";
+	public void setEstado(Boolean estado) {
+		this.estado = estado;
 	}
-	
-	
-	
 }

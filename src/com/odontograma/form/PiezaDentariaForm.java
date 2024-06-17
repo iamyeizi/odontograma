@@ -10,6 +10,7 @@ public class PiezaDentariaForm extends ActionForm {
     private String grupoDentario;
     private String subgrupo;
     private String arcada;
+    private Boolean estado;
     
     
     // TODO: Refactor this, only the model needs to have access to the data
@@ -57,4 +58,10 @@ public class PiezaDentariaForm extends ActionForm {
 	public void setArcada(String arcada) {
 		this.arcada = arcada;
 	} 
+	public Boolean getEstado() {
+		return estado;
+	}
+	public void setEstado(Boolean estado) {
+		this.estado = estado;
+	}
 }

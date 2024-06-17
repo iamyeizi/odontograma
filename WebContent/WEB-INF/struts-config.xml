@@ -7,7 +7,7 @@
     <action-mappings>
         <action
 			path="/addPiezaDentaria"
-			type="com.odontograma.action.AddPiezaDentariaAction"
+			type="com.odontograma.controller.AddPiezaDentariaAction"
 			name="piezaDentariaForm"
 			scope="request"
 			validate="true"

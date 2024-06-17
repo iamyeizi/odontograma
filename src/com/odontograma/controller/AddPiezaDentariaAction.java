@@ -1,4 +1,4 @@
-package com.odontograma.action;
+package com.odontograma.controller;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -23,7 +23,7 @@ public class AddPiezaDentariaAction extends Action {
             // TODO: Assess constraints before saving
 
             connection = DBConnection.getConnection();     
-            String sql = "INSERT INTO PIEZAS_DENTARIAS (NRO_PIEZA, DESCRIPCION, TIPO_DENTICION, GRUPO_DENTARIO, SUBGRUPO, ARCADA) VALUES (?, ?, ?, ?, ?, ?)";
+            String sql = "INSERT INTO PIEZAS_DENTARIAS (NRO_PIEZA, DETALLE, TIPO_DENTICION, GRUPO_DENTARIO, SUBGRUPO, ARCADA, ESTADO) VALUES (?, ?, ?, ?, ?, ?, ?)";
             preparedStatement = connection.prepareStatement(sql);
 
             preparedStatement.setInt(1, piezaDentariaForm.getNroPieza());
@@ -32,6 +32,7 @@ public class AddPiezaDentariaAction extends Action {
             preparedStatement.setString(4, piezaDentariaForm.getGrupoDentario());
             preparedStatement.setString(5, piezaDentariaForm.getSubgrupo());
             preparedStatement.setString(6, piezaDentariaForm.getArcada());
+            preparedStatement.setBoolean(7, piezaDentariaForm.getEstado());
 
             preparedStatement.executeUpdate();
 

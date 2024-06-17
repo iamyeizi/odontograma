@@ -9,7 +9,7 @@
     <p>Seleccione una de las opciones a continuación:</p>
     <ul>
         <li><a href="addPiezaDentaria.jsp">Agregar Pieza Dentaria</a></li>
-        <!-- Puedes agregar más enlaces a otras partes de la aplicación aquí -->
+        <!-- agregar otras opciones -->
     </ul>
 </body>
 </html>
