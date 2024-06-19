@@ -8,8 +8,9 @@ import org.apache.struts.action.Action;
 import org.apache.struts.action.ActionForm;
 import org.apache.struts.action.ActionForward;
 import org.apache.struts.action.ActionMapping;
+
 import com.odontograma.form.PiezaDentariaForm;
-import com.odontograma.utils.DBConnection;
+import com.odontograma.utils.OldDBConnection;
 
 public class AddPiezaDentariaAction extends Action {
     public ActionForward execute(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
@@ -22,7 +23,7 @@ public class AddPiezaDentariaAction extends Action {
 
             // TODO: Assess constraints before saving
 
-            connection = DBConnection.getConnection();     
+            connection = OldDBConnection.getConnection();     
             String sql = "INSERT INTO PIEZAS_DENTARIAS (NRO_PIEZA, DETALLE, TIPO_DENTICION, GRUPO_DENTARIO, SUBGRUPO, ARCADA, ESTADO) VALUES (?, ?, ?, ?, ?, ?, ?)";
             preparedStatement = connection.prepareStatement(sql);
 

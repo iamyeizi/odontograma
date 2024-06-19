@@ -3,15 +3,29 @@ package com.odontograma.model;
 public class PiezaDentaria {
     private int id;
     private int nroPieza;
-    private String descripcion;
+    private String detalle;
     private String tipoDenticion;
     private String grupoDentario;
     private String subgrupo;
     private String arcada;
-    private Boolean estado;
+    private boolean estado;
+  
     
-	// TODO: Review if it need to have to a toString override
-    
+	public PiezaDentaria(int id, int nroPieza, String detalle,
+			String tipoDenticion, String grupoDentario, String subgrupo,
+			String arcada, boolean estado) {
+		super();
+		this.id = id;
+		this.nroPieza = nroPieza;
+		this.detalle = detalle;
+		this.tipoDenticion = tipoDenticion;
+		this.grupoDentario = grupoDentario;
+		this.subgrupo = subgrupo;
+		this.arcada = arcada;
+		this.estado = estado;
+	}
+	
+	
 	public int getId() {
 		return id;
 	}
@@ -24,11 +38,11 @@ public class PiezaDentaria {
 	public void setNroPieza(int nroPieza) {
 		this.nroPieza = nroPieza;
 	}
-	public String getDescripcion() {
-		return descripcion;
+	public String getDetalle() {
+		return detalle;
 	}
-	public void setDescripcion(String descripcion) {
-		this.descripcion = descripcion;
+	public void setDescripcion(String detalle) {
+		this.detalle = detalle;
 	}
 	public String getTipoDenticion() {
 		return tipoDenticion;
@@ -54,10 +68,10 @@ public class PiezaDentaria {
 	public void setArcada(String arcada) {
 		this.arcada = arcada;
 	}
-	public Boolean getEstado() {
+	public boolean getEstado() {
 		return estado;
 	}
-	public void setEstado(Boolean estado) {
-		this.estado = estado;
+	public boolean setEstado(boolean estado) {
+		return this.estado = estado;
 	}
 }

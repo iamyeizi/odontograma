@@ -13,8 +13,7 @@ public class PiezaDentariaForm extends ActionForm {
     private Boolean estado;
     
     
-    // TODO: Refactor this, only the model needs to have access to the data
-	// Think better about what things should be here
+    // TODO: Think better about what things should be here
     
 	public int getId() {
 		return id;
