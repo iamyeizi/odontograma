@@ -3,14 +3,16 @@ package com.odontograma.form;
 import org.apache.struts.action.ActionForm;
 
 public class PiezaDentariaForm extends ActionForm {
-    private int id;
+	private static final long serialVersionUID = -5025587514453501667L;
+	
+	private int id;
     private int nroPieza;
     private String descripcion;
     private String tipoDenticion;
     private String grupoDentario;
     private String subgrupo;
     private String arcada;
-    private Boolean estado;
+    private boolean estado;
     
     
     // TODO: Think better about what things should be here
@@ -57,10 +59,10 @@ public class PiezaDentariaForm extends ActionForm {
 	public void setArcada(String arcada) {
 		this.arcada = arcada;
 	} 
-	public Boolean getEstado() {
+	public boolean getEstado() {
 		return estado;
 	}
-	public void setEstado(Boolean estado) {
+	public void setEstado(boolean estado) {
 		this.estado = estado;
 	}
 }
