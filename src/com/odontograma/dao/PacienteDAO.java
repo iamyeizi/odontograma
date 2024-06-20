@@ -79,11 +79,11 @@ public class PacienteDAO implements BaseDAO<Paciente>{
     public List<Paciente> getAll() throws SQLException {
         List<Paciente> pacientes = new ArrayList<>();
 //        String sql = "SELECT * FROM PIEZAS_DENTARIAS";
-        try (Connection connection = DBConnection.getConnection();
-             PreparedStatement statement = connection.prepareStatement(sql);
-             ResultSet resultSet = statement.executeQuery()) {
-            while (resultSet.next()) {
-                pacientes.add(new Paciente(
+        // try (Connection connection = DBConnection.getConnection();
+        //      PreparedStatement statement = connection.prepareStatement(sql);
+        //      ResultSet resultSet = statement.executeQuery()) {
+        //     while (resultSet.next()) {
+                // pacientes.add(new Paciente(
 //                        resultSet.getInt("ID"),
 //                        resultSet.getInt("NRO_PIEZA"),
 //                        resultSet.getString("DETALLE"),
@@ -92,20 +92,20 @@ public class PacienteDAO implements BaseDAO<Paciente>{
 //                        resultSet.getString("SUBGRUPO"),
 //                        resultSet.getString("ARCADA"),
 //                        resultSet.getBoolean("ESTADO")
-                ));
-            }
-        }
+                // ));
+            // }
+        // }
         return pacientes;
     }
 
     @Override
     public void delete(int id) throws SQLException {
 //        String sql = "DELETE FROM PIEZAS_DENTARIAS WHERE ID = ?";
-        try (Connection connection = DBConnection.getConnection();
-             PreparedStatement statement = connection.prepareStatement(sql)) {
-//            statement.setInt(1, id);
-            statement.executeUpdate();
-        }
+//         try (Connection connection = DBConnection.getConnection();
+//              PreparedStatement statement = connection.prepareStatement(sql)) {
+//                 statement.setInt(1, id);
+//                 statement.executeUpdate();
+//         }
     }
 
 }

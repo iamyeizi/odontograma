@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnection {
-    private static final String URL = "jdbc:mysql://localhost:3306/tu_base_de_datos";
+    private static final String URL = "jdbc:mysql://localhost:3306/odontograma";
     private static final String USER = System.getenv("DB_USERNAME");
     private static final String PASSWORD = System.getenv("DB_PASSWORD");
     private static final String DRIVER_CLASS = "com.mysql.cj.jdbc.Driver";
@@ -19,7 +19,7 @@ public class DBConnection {
         try {
             Class.forName(DRIVER_CLASS);
         } catch (ClassNotFoundException e) {
-            throw new RuntimeException("Failed to load JDBC driver", e);
+            throw new RuntimeException("Failed to load JDBC driver.", e);
         }
     }
 
